@@ -1,0 +1,92 @@
+/*  
+  COLOUR SCHEME:
+  https://color.adobe.com/Aspirin-C-color-theme-251864/
+  Dark Blue:    #225378
+  Medium Blue:  #1695A3
+  Light Blue:   #ACF0F2
+  Off White:    #F3FFE2
+  Orange:       #EB7F00
+*/
+
+/*Set max width*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+/*Global Settings*/
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #1695A3;
+  font-size: 18px;
+}
+
+a {
+  color: #ACF0F2;
+}
+
+
+/*Navbar*/
+.navbar {
+  font-weight: 300;
+  font-size: 1.4em; 
+  background-color: #EB7F00;
+  border-color: transparent;
+  border-radius: 0px;
+
+}
+
+/*Logo Style*/
+.navbar-default .navbar-brand {
+  color: #225378;
+  font-size: 1em;
+}
+
+/*Menu Items */
+.navbar-default .navbar-nav > li > a {
+  color: #F3FFE2;
+}
+
+/*Right hand items*/
+.navbar-right {
+  font-weight: 100;
+}
+
+/* <---  Body ---> */
+body h1 {
+  font-weight: 100;
+  font-size: 4em;
+}
+
+body h2, h3 {
+  font-weight: 100;
+}
+
+.subhead {
+  font-weight: 100;
+}
+
+.interests {
+  font-weight: 100;
+}
+.icon-large {
+  vertical-align: text-top;
+}
+
+/*FOOTER STYLING*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+}
