@@ -83,11 +83,10 @@ body h2, h3 {
 .education {
   color: #225378;
   margin-bottom: 20px;
-  font-weight: 300;
 }
 
-.education h1 {
-  font-size: 2em;
+.education h2 {
+  font-weight: 300;
 }
 
 .project-heading {
