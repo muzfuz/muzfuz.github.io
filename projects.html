@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazin Power | Web Developer Projects</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,100,700,300italic' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<header>
+  <!-- Nav Menu -->
+  <nav class="navbar navbar-default navbar-fixed" role="navigation">  
+    <div class="container">
+      
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" 
+           data-target="#example-navbar-collapse">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Mazin Power</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="reading.html">Reading List</a></li>
+        </ul>
+
+        <!-- Maybe I'll use this one day:      
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Toys</a></li>
+          <li><a href="#">Reading List</a></li>
+        </ul> -->
+      </div>
+
+      <!-- .container -->
+    </div>
+  </nav>
+</header>
+
+<body>
+<div class="container">
+ 
+ <div class="row">
+
+   <!-- COLUMN -->
+   <div class="col-sm-8">
+    <div class="row"><h1>Projects</h1></div>
+    
+    <div class="row project-item">     
+      <div class="col-sm-4">
+        <a href="http://serene-falls-9679.herokuapp.com" target="_blank">
+        <img src="img/ruby-on-rails.jpg" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          Events Manager App</a>
+        </h2>
+
+        <p>Rails-based events manager app, sort of like EventBrite.</p>
+        <p>I built this to get practice with model relationships, and getting the right user interaction with the database.</p>
+      </div>
+    </div>
+
+    <div class="row project-item">
+      <div class="col-sm-4">
+        <a href="projects/calculator/index.html" target="_blank">
+        <img src="img/calculator.png" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          CSS Calculator</a>
+        </h2>
+
+        <p>Basic calculator app, written in JavaScript, with a HTML / CSS UI.</p>
+        <p>The front end is entirely composed of div tags with various classes and ID's to style it. The back end logic is fairly straightforward too.</p>
+      </div>
+    </div>
+
+    <div class="row project-item">
+      <div class="col-sm-4">
+        <a href="projects/minesweeper/index.html" target="_blank">
+        <img src="img/minesweeper.png" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          Minesweeper</a>
+        </h2>
+
+        <p>JavaScript / jQuery implementation of the classic windows game.</p>
+        <p>I "discovered" the flood-fill algorithm while making this game - that is, I ended up building it without realising what it was.  Very helpful though!</p>
+      </div>
+    </div>
+
+    <div class="row project-item">
+      <div class="col-sm-4">
+        <a href="projects/snake/index.html" target="_blank">
+        <img src="img/snake.png" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          Snake</a>
+        </h2>
+
+        <p>Clone of the classic Nokia Snake game, written almost entirely in JavaScript (I used a bit of jQuery for attaching the game to the DOM).</p>
+        <p>This game was challenging because it was my first time creating a 2D plane without the help of div tags!</p>
+      </div>
+    </div>
+
+    <div class="row project-item">
+      <div class="col-sm-4">
+        <a href="projects/sketchpad/index.html" target="_blank">
+        <img src="img/sketchpad.png" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          Online Etch-a-Sketch</a>
+        </h2>
+
+        <p>Fun little jQuery powered Sketchpad (Desktop only).</p>
+        <p>Turns div tags into pixels and lets you create drawings, and funky light trails.</p>
+      </div>
+    </div>
+
+    <div class="row project-item">
+      <div class="col-sm-4">
+        <a href="projects/slider/index.html" target="_blank">
+        <img src="img/slider.png" class="img-rounded">
+      </div>
+      
+      <div class="col-sm-8">
+        <h2 class="project-heading">
+          jQuery Image Slider</a>
+        </h2>
+
+        <p>Basic image slider - my version has some pictures I took in it!</p>
+        <p>It's pretty basic, but also lightweight, so can be extended to suit your purpose!</p>
+      </div>
+    </div>
+
+   <!-- /column  -->
+   </div>
+ 
+   <!-- CONTACT ME      -->
+  <div class="col-sm-4">
+    <h2>Contact me:</h2>     
+    <p><span class="icon-large icon-envelope"></span><a href="mailto:email@mazinpower.com"> Email</a></p>
+    <p><span class="icon-large icon-github"></span><a href="https://github.com/muzfuz"> GitHub Projects</a></p>   
+    <p><span class="icon-large icon-linked-in"></span><a href="https://www.linkedin.com/in/mazinpower"> LinkedIn</a></p>   
+    <p><span class="icon-large icon-twitter"></span><a href="https://twitter.com/mazin_power"> Twitter</a></p>   
+    <p><span class="icon-large icon-signal"></span><a href="http://careers.stackoverflow.com/cv/edit/245821"> Stack Overflow</a></p>   
+    <p><span class="icon-large icon-flickr"></span><a href="https://www.flickr.com/photos/mazinpower/"> Flickr</a></p>   
+    <p style="color: #ACF0F2"><span class="icon-large icon-skype"></span> mazin-power</p>   
+  </div>
+ <!-- end row -->
+ </div>    
+<!-- .container -->
+</div>
+  
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+  <div id="footer">
+    <div class="container">
+      <span style="font-size:0.8em"><p>I hand coded this site, on a Bootstrap grid. You can view the GitHub source here.  The icons are from <a href="http://glyphicons.com">glyphicons.com</a></p></span>     
+    </div>
+  </div>
+</footer>
+
+</html>
