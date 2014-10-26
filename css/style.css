@@ -97,6 +97,10 @@ body h2, h3 {
   margin-top: 30px;
 }
 
+.book {
+  margin-left: 15px;
+}
+
 /*FOOTER STYLING*/
 html {
   position: relative;
