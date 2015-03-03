@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+}
+
+body {
+	color: #424242;
+  	font: 18px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+body h1 {
+	font-size: 32px;
+	text-align: center;
+}
+
+footer {
+	width: 640px;
+	margin: 150px auto;
+	text-align: center;
+}
+
+#headline {
+	margin-bottom: 25px;
+}
+
+#container {
+	margin: 80px auto;
+	width: 640px;
+	height: 429px;
+}
+
+
+#slider {
+	margin: 0 auto;
+
+
+}
+
+/*IMAGES*/
+ul#slides {
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+ul#slides li {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/*NAV DOTS*/
+ul#dots{
+	position: relative;
+	top: 440px;
+	
+}
+
+ul#dots li {
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	border: 2px solid #2a32d2;
+	background: white;
+	float: left;
+	margin: 0px auto;
+	margin-right: 3px;
+	cursor: pointer;
+}
+
+ul#dots li.active{
+	background-color: #5269ff;
+}
+
+/*FORWARD / BACK BUTTONS*/
+#buttons {
+	position: relative;
+	top: 430px;
+	float: right;
+}
+
+#button-prev {
+
+}
+
+#button-next {
+
+}
