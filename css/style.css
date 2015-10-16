@@ -1,4 +1,4 @@
-/*  
+/*
   COLOUR SCHEME:
   https://color.adobe.com/Aspirin-C-color-theme-251864/
   Dark Blue:    #225378
@@ -18,16 +18,16 @@
 /*Global Settings*/
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #1695A3;
-  font-size: 18px;
+  background-color: #f1efce;
+  font-size: 15px;
 }
 
 a {
-  color: #ACF0F2;
+  color: #3d7aa8;
 }
 
 a:hover {
-  color: #225378;
+  color: #153b74;
   text-decoration: none;
 }
 
@@ -36,8 +36,8 @@ img { max-width: 100%; }
 /*Navbar*/
 .navbar {
   font-weight: 300;
-  font-size: 1.4em; 
-  background-color: #EB7F00;
+  font-size: 1.4em;
+  background-color: #46a9bf;
   border-color: transparent;
   border-radius: 0px;
 
