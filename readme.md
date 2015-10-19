@@ -1,5 +1,5 @@
 #Code for my personal website
 
-####Written purely in HTML / CSS on a responsive Bootstrap grid.
+####It's super basic, but I just want something thats simple to manage.
 
 ####[muzfuz.com](http://muzfuz.com)
