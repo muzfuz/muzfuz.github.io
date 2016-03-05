@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#Download pathogen
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+#Install Vim Sensible -- set of default settings
+git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
+
+#Install Auto Pairs (Bracket Matching)
+git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+
+#Install ColorScheme
+git clone https://github.com/wellsjo/wells-colorscheme.vim.git ~/.vim/bundle/wells-colorscheme.vim
+
+#Install NERDTree
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+
+#Now write the .vimrc
+echo execute pathogen#infect() >> ~/.vimrc
+echo syntax on >> ~/.vimrc
+echo set background=dark >> ~/.vimrc
+echo filetype plugin indent on >> ~/.vimrc
+echo colorscheme wellsokai >> ~/.vimrc
+echo nmap <C-o> O<Esc> >> ~/.vimrc
+echo nmap <CR> o<Esc> >> ~/.vimrc
