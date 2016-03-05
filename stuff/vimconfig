@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Download pathogen
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+mkdir -p ~/.vim ~/.vim/autoload ~/.vim/bundle && \
 	curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 #Install Vim Sensible -- set of default settings
@@ -17,5 +17,5 @@ git clone https://github.com/wellsjo/wells-colorscheme.vim.git ~/.vim/bundle/wel
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 #Now write the .vimrc
-curl -O https://muzfuz.github.io/vimrc
+cd ~ && curl -O https://muzfuz.github.io/stuff/vimrc
 mv ~/vimrc ~/.vimrc
