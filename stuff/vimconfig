@@ -10,6 +10,9 @@ git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 #Install Auto Pairs (Bracket Matching)
 git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 
+#Install Vim Colors
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+
 #Install ColorScheme
 git clone https://github.com/wellsjo/wells-colorscheme.vim.git ~/.vim/bundle/wells-colorscheme.vim
 
@@ -19,3 +22,6 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 #Now write the .vimrc
 cd ~ && curl -O https://muzfuz.github.io/stuff/vimrc
 mv ~/vimrc ~/.vimrc
+
+#Remove this file (cleanup)
+rm ~/vimconfig
