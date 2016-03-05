@@ -17,10 +17,5 @@ git clone https://github.com/wellsjo/wells-colorscheme.vim.git ~/.vim/bundle/wel
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 #Now write the .vimrc
-echo execute pathogen#infect() >> ~/.vimrc
-echo syntax on >> ~/.vimrc
-echo set background=dark >> ~/.vimrc
-echo filetype plugin indent on >> ~/.vimrc
-echo colorscheme wellsokai >> ~/.vimrc
-echo nmap <C-o> O<Esc> >> ~/.vimrc
-echo nmap <CR> o<Esc> >> ~/.vimrc
+curl -O https://muzfuz.github.io/vimrc
+mv ~/vimrc ~/.vimrc
