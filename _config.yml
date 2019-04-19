@@ -2,7 +2,8 @@ title: Mazin Power El Fehaid | Software Engineer
 masthead_title: Mazin Power El Fehaid
 description: I'm a software engineer with a background in Ruby, Go and Containerised Distributed Systems
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 search: true
 
