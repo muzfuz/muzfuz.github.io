@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
-# gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", group: :development # We don't want this in production, but we might want it to test in local dev
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
