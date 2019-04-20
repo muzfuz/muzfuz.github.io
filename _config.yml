@@ -30,10 +30,10 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:muzfuz@icloud.com"
-    - label: "Twitter"
+    - label: "@mazin_power"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/mazin_power"
-    - label: "GitHub"
+    - label: "github.com/muzfuz"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/muzfuz"
 
