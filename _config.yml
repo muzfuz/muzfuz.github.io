@@ -13,14 +13,6 @@ url: "https://muzfuz.com"
 repository: "muzfuz/muzfuz.github.io"
 twitter:
   username: "mazin_power"
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-138646158-1"
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "muzfuz"
 
 author:
   avatar   : "https://github.com/muzfuz.png"
