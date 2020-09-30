@@ -51,6 +51,10 @@ Steps 1-3 are relatively easy to do and require little manual testing, if any - 
 
 Step 4 will take the bulk of your time, but paradoxically it will also require the fewest code changes.  If you've released steps 1-3 to production before attempting this step, then rebasing and staying on top of latest changes will not be difficult - which will make your development go faster.
 
+## Fix Tests in the Right Order
+
+First fix Model tests, then Controller tests, and do any View or Feature tests at the end - this order matters because by fixing things deeper in the call stack first, you'll be able to squash 90% of problems with the view layer before even having to think about it.
+
 ## Try to release database migrations separately
 
 Not all upgrades will required database changes, though most of them will change your schema.rb a fair bit. If you do need to write a migration, try to release it separately before attempting to upgrade the Rails gem itself, as it will help de-risk the release and simplify rolling back, should you need to.
@@ -61,7 +65,7 @@ Don't try to re-invent what Rails is doing - this way leads to madness.  By the 
 
 ## Rails has become less permissive over time
 
-In my experience, the majority of test failuresRails 2 and 3 were very liberal about allowing you to pass in whatever object type you want into ActiveRecord / ActiveSupport type methods.  Increasing versions of Rails become less permissive.  This is a good thing as it means your code is more reliable (you'll find bugs you didn't know existed), but it also means you'll probably have a slew of cases where code that has worked for years suddenly starts blowing up your test suite.
+In my experience, the majority of test failures come about because of changes in ActiveRecord or ActiveSupport. Rails 2 and 3 were very liberal about allowing you to pass in whatever object type you want into core methods, but increasing versions of Rails have become less permissive.  This is a good thing as it means your code is more reliable (you'll find bugs you didn't know existed), but it also means you'll probably have a slew of cases where code that has worked for years suddenly starts blowing up your test suite.
 
 My best advice here is prepare yourself mentally to empathize with what the Rails maintainers are trying to do, and make changes to your application code accordingly.
 
