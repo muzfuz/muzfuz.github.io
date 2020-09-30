@@ -11,11 +11,11 @@ tags:
 ---
 
 
-I've spent a significant chunk of 2020 upgrading a legacy `Ruby on Rails v3.2` monolith (we've just about hit `5.0` as of September), so I thought it would be worth sharing a quick guide on best practices and approaches.
+I've spent a significant chunk of 2020 upgrading a legacy `Ruby on Rails v3.2` monolith (we've just about hit `5.0` as of September), so I thought it would be worth my thoughts on what I've found to be helpful.
 
-First off, to get the obvious out of the way, you should always try to be on the latest version of Ruby and Rails.  It might feel like a lot of time spent, but in the long run it will cost you less money to just stay up do date.  Don't just take my work on that of course - [Eileen Uchitelle at GitHub has a great blog series on this topic](https://github.blog/author/eileencodes/).
+First off, to get the obvious out of the way, I think you should always try to be on the latest version of Ruby and Rails.  It might feel like a lot of time spent, but in the long run it will cost you less money to just stay up do date.  Don't just take my work on that of course - [Eileen Uchitelle at GitHub has a great blog series on this topic](https://github.blog/author/eileencodes/).
 
-So here's my general guidelines that I've found work best when upgrading:
+So in relative order of importance, here's my thoughts on the topic.
 
 ## Keep your Ruby version up to date!
 
